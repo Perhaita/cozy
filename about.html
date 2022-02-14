@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font awesome -->
+    <script
+      src="https://kit.fontawesome.com/015479070a.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- CSS stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/products.css" />
+
+    <!-- Font awesome -->
+    <script
+      src="https://kit.fontawesome.com/015479070a.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="css/products.css" />
+    <title>Home | About</title>
+  </head>
+  <body>
+    <!-- Loader -->
+    <div class="loader_bg">
+      <div class="loader"></div>
+    </div>
+    <!-- Top Section -->
+    <section class="first_section">
+      <div class="row">
+        <div class="col-md-5">
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="navbar_div collapse navbar-collapse">
+              <ul class="navbar-nav ml-auto">
+                <li>
+                  <a class="nav_link" href="index.html">Home</a>
+                </li>
+                <li>
+                  <a class="nav_link" href="products.html">Products</a>
+                </li>
+                <li>
+                  <a class="nav_link" href="about.html">About</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div class="col-md-3">
+          <div class="cozy_img">
+            <div class="cozy_brand fontwanted">cozy</div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <button type="submit" id="open_modal" class="btn">
+            <i class="btn_cart_topleft fas fa-shopping-cart fa-2x"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- Info heading -->
+    <div class="info_heading">
+      <div class="info_title">Home / About</div>
+    </div>
+    <!-- History -->
+    <section class="about_page">
+      <div class="title_about">
+        <h2 class="title_about_size"><span>/</span> Our History</h2>
+      </div>
+      <p class="about_text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+        dolor enim vero consequuntur eveniet qui animi error, modi quas
+        voluptate, obcaecati cumque necessitatibus doloribus adipisci nisi
+        explicabo amet facilis itaque soluta? Rerum, autem maiores consectetur
+        aperiam harum eveniet nostrum temporibus, distinctio quasi veniam, quas
+        laborum iste praesentium voluptatum architecto quaerat. Natus delectus
+        in voluptatibus enim necessitatibus nisi modi, ullam neque fugit rerum
+        ad, eos id error doloremque voluptates distinctio officiis dicta aperiam
+        impedit velit. Temporibus cum minima, et totam rem est eaque omnis
+        recusandae reiciendis architecto dolorum fuga doloremque quis
+        dignissimos aliquam deleniti tempora distinctio dolor ipsa, harum
+        assumenda? Officiis dolorem omnis quia, veritatis sed nihil recusandae
+        dolorum id accusantium doloremque sapiente aliquam consectetur saepe
+        modi! Dolor a recusandae maxime possimus, deleniti velit aut repellat,
+        cum ullam, aspernatur distinctio minus. Ducimus blanditiis at natus
+        saepe explicabo cum libero voluptas, ullam nemo, perferendis iusto
+        quisquam fugit, vero non deserunt nihil maiores?
+      </p>
+    </section>
+    <div class="modal_container">
+      <div class="modal">
+        <h1>Your Bag</h1>
+        <button id="close">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+    </div>
+    <!-- Loader Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+      setTimeout(function () {
+        $(".loader_bg").fadeToggle();
+      }, 1500);
+    </script>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
